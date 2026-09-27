@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Register - Blakletterpress Website Template</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<style type="text/css">
+		/* Page-scoped styles for the registration form only. Palette from
+		   css/style.css tokens: #fdf6ea fields, #525252 text, #d6ae6a rules,
+		   #be841f button (hover #7e501c). style.css itself is never modified. */
+		#main form {
+			margin: 0;
+		}
+		#main form fieldset {
+			border: 1px solid #d6ae6a;
+			margin: 0 0 24px;
+			padding: 6px 20px 14px;
+		}
+		#main form legend {
+			color: #300302;
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 24px;
+			padding: 0 8px;
+		}
+		#main form p {
+			padding-bottom: 0;
+		}
+		#main form fieldset p {
+			margin: 0 0 18px;
+		}
+		#main form fieldset p:last-of-type {
+			margin-bottom: 0;
+		}
+		#main form label {
+			color: #525252;
+			cursor: pointer;
+			display: block;
+			font-size: 14px;
+			line-height: 24px;
+		}
+		#main form input[type="text"],
+		#main form input[type="email"],
+		#main form input[type="password"] {
+			background-color: #fdf6ea;
+			border: 1px solid #d6ae6a;
+			color: #525252;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 14px;
+			height: 22px;
+			line-height: 22px;
+			margin: 4px 0 0;
+			padding: 0 6px;
+			width: 400px;
+		}
+		#main form input[type="text"]:focus,
+		#main form input[type="email"]:focus,
+		#main form input[type="password"]:focus {
+			border-color: #be841f;
+		}
+		#main form fieldset p span {
+			color: #8f5e08;
+			display: block;
+			font-size: 12px;
+			line-height: 20px;
+		}
+		#main form input[type="checkbox"] {
+			margin: 0 8px 0 0;
+			vertical-align: middle;
+		}
+		#main form input[type="checkbox"] + label {
+			display: inline;
+		}
+		#main form button[type="submit"] {
+			background: #be841f;
+			border: 0;
+			color: #fcfefc;
+			cursor: pointer;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 14px;
+			font-weight: bold;
+			height: 24px;
+			line-height: 24px;
+			padding: 0 0 4px;
+			text-align: center;
+			width: 120px;
+		}
+		#main form button[type="submit"]:hover {
+			background: #7e501c;
+		}
+	</style>
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<div id="motto">
+				<a href="index.html" class="sitename"><img src="images/blakletterpress.png" height="24" width="142" alt="SiteName"></a>
+				<p>
+					<img src="images/header-text.png" height="14" width="218" alt="Text">
+				</p>
+			</div>
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
+			</div>
+			<div id="searchbar">
+				<form action="#" method="post">
+					<input type="text" value="Enter search query" class="txtfield" onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">
+					<input type="submit" value="Search" class="btn">
+				</form>
+			</div>
+		</div>
+		<div id="contents">
+			<div id="main">
+				<div class="body">
+					<h1>Create Your <em>Account</em></h1>
+					<p>
+						Register to join the Blakletterpress community and get full access to our news, blog and member-only downloads. Fill in the form below &mdash; it only takes a minute.
+					</p>
+					<form action="#" method="post">
+						<fieldset>
+							<legend>Account details</legend>
+							<p>
+								<label for="fullname">Full name</label>
+								<input type="text" id="fullname" name="fullname" autocomplete="name" required>
+							</p>
+							<p>
+								<label for="email">Email address</label>
+								<input type="email" id="email" name="email" autocomplete="email" required>
+							</p>
+							<p>
+								<label for="password">Password</label>
+								<input type="password" id="password" name="password" autocomplete="new-password" minlength="8" required>
+								<span>Use at least 8 characters.</span>
+							</p>
+						</fieldset>
+						<fieldset>
+							<legend>Preferences</legend>
+							<p>
+								<input type="checkbox" id="newsletter" name="newsletter">
+								<label for="newsletter">Send me the monthly newsletter with new prints and event dates.</label>
+							</p>
+						</fieldset>
+						<fieldset>
+							<legend>Terms of service</legend>
+							<p>
+								<input type="checkbox" id="terms" name="terms" required>
+								<label for="terms">I have read and accept the <a href="about.html">Terms of Use</a> and <a href="about.html">Privacy Policy</a>.</label>
+							</p>
+						</fieldset>
+						<p>
+							<button type="submit">Register</button>
+						</p>
+					</form>
+					<p>
+						Already registered? Head back to the <a href="index.html">home page</a>.
+					</p>
+				</div>
+			</div>
+			<div id="sidebar">
+				<div id="navigation">
+					<div>
+						<ul>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="about.html">About</a>
+							</li>
+							<li>
+								<a href="news.html">News</a>
+							</li>
+							<li>
+								<a href="blog.html">Blog</a>
+							</li>
+							<li>
+								<a href="media.html">Media</a>
+							</li>
+							<li class="selected">
+								<a href="register.html">Join</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="section">
+					<div id="connect">
+						<h2>Connect with us:</h2>
+						<a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" class="twitter"></a> <a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" class="facebook"></a> <a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" class="googleplus"></a>
+					</div>
+				</div>
+				<div class="section">
+					<div id="posts">
+						<h2>Placeholder</h2>
+						<ul>
+							<li>
+								<h5>Title Sample One</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend ligula vel velit varius
+								</p>
+								<a href="news.html" class="more">Read more</a>
+							</li>
+							<li>
+								<h5>Title Sample One</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend ligula vel velit varius
+								</p>
+								<a href="news.html" class="more">Read more</a>
+							</li>
+						</ul>
+						<a href="news.html" class="btn2">View More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div>
+				<ul id="featured">
+					<li>
+						<a href="index.html" class="home"></a>
+						<p>
+							This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+						</p>
+					</li>
+					<li>
+						<a href="index.html" class="bell"></a>
+						<p>
+							This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+						</p>
+					</li>
+					<li>
+						<a href="index.html" class="globe"></a>
+						<p>
+							This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+						</p>
+					</li>
+					<li>
+						<a href="index.html" class="pencil"></a>
+						<p>
+							This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+						</p>
+					</li>
+				</ul>
+				<p id="footnote">
+					© Copyright © 2011.Company name all rights reserved
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
